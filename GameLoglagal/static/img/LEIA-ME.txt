@@ -1,0 +1,14 @@
+CAPAS DOS JOGOS — GAMESQUARE
+
+Coloque suas imagens baixadas nesta pasta (static/img) e use estes nomes de arquivo:
+- zelda.jpg
+- elden-ring.jpg
+- minecraft.jpg
+- red-dead-redemption-2.jpg
+- hollow-knight.jpg
+- stardew-valley.jpg
+
+Se preferir outros nomes, edite os caminhos /static/img/... na lista `games` do arquivo app.py.
+Formatos recomendados: JPG, PNG ou WEBP. Se usar outra extensão, atualize também o caminho no app.py.
+
+Observação: se você já executou o projeto e o banco gamelog.db já foi criado, os jogos existentes não serão atualizados automaticamente. Para aplicar os caminhos novos em uma instalação de teste, pare o servidor, faça backup e remova gamelog.db para que ele seja recriado com os dados iniciais. Isso apaga as reviews salvas nesse banco.
